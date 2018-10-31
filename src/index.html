@@ -15,6 +15,7 @@
 
       <link href="https://plus.google.com/+YourPage" rel="publisher">
       <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
       <link rel="stylesheet" href="./css/app.css">
 
       <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -97,7 +98,7 @@
                               </div>
                            </div>
                            <div class="panel main__panel panel_device panel_out_bot">
-                              <script type="text/javascript" src="banner.js"></script>
+                             <a target=_blank href="http://ya.ru"><img src="/images/banner.jpg" border=0></a>
                            </div>
                         </div>
                      </div>
@@ -201,30 +202,13 @@
                      </div>
 
                      <div class="scenarios__page">
-                        <div class="panel scenarios__panel">
-                           <div class="panel__icon panel__icon_light_on"></div>
-                           <div class="panel__text">
-                              <div class="panel__title">Включить свет в корридоре</div>
-                           </div>
-                        </div>
+                       <div class="panel scenarios__panel">
+                         <div class="panel__icon panel__icon_clock"></div>
+                         <div class="panel__text">
+                           <div class="panel__title">Я ухожу</div>
+                         </div>
+                       </div>
                      </div>
-
-                     <script type="text/babel">
-                       class App extends React.Component {
-                         render() {
-                           return (
-                             <div class="panel scenarios__panel">
-                               <div class="panel__icon panel__icon_clock"></div>
-                               <div class="panel__text">
-                                 <div class="panel__title">Я ухожу</div>
-                               </div>
-                             </div>
-                           );
-                         }
-                       }
-
-                       ReactDOM.render(<App />, document.getElementsByClassName('scenarios__page')[1]);
-                     </script>
 
                   </section>
                </div>
@@ -456,12 +440,8 @@
 
       </div>
 
-      <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-      <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-      <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
       <script src="scripts.js"></script>
 
-      <link href="bootstrap.css" rel="stylesheet" media="screen">
       <style type="text/css">
          .main__greeting {
             font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
